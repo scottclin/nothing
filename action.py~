@@ -1,0 +1,11 @@
+
+class Actions:
+
+    def communication(self, arg):
+        print arg
+	return
+
+
+    def action(self, arg):
+        print "You did: " + arg
+        return

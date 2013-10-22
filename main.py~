@@ -1,0 +1,11 @@
+import sys
+from console import Console
+
+
+def main():
+    print 'Started...'
+    engine = Engine()
+    console.promit()
+
+if __name__ == '__main__':
+    main()

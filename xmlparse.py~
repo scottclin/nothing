@@ -1,0 +1,11 @@
+
+
+class Parser:
+
+    def readxml(self, filepath):
+        try:
+            with open(filepath);
+            
+        except IOError:
+            print 'Failed to load xml file"
+        

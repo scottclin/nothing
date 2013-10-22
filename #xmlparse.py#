@@ -1,0 +1,19 @@
+import xAhml.etree.ElementTree as xmltree
+
+class Parser:
+
+    def readxml(self, filepath):
+        try:
+            tree = xmltree.parse('filepath')
+            root = tree.getroot()
+            
+        except IOError:
+            print 'Failed to load xml file'
+        
+
+    def writexmlappend(self, element, pelement):
+        SubElement(pelement, element.getname(), element.getattributes())
+        
+
+    def wrtiexmlnew(self, filename, element):
+        
